@@ -1,98 +1,88 @@
-.pantalla {
+.pantalla{
     width: 428px;
     height: 926px;
     background-color: whitesmoke;
-    margin: auto;
+    margin:auto;
     margin-top: 10rem;
     border-radius: 1%;
     position: relative;
 }
-
-.menu {
-    float: left;
+.menu{
+    float:left;
     width: 41rem;
     height: 6rem;
     margin-top: 4rem;
     margin-left: 1rem;
     justify-content: space-between;
 }
-
-.img1 {
+.img1{
     width: 4rem;
     margin-top: 1rem;
     margin-left: 1.5rem;
 }
-
-.img2 {
+.img2{
     width: 4rem;
-    margin-left: 30rem;
+    margin-left:30rem;
     margin-top: 1rem;
 }
-
-.titulo {
+.titulo{
     float: left;
     width: 41rem;
     height: 7rem;
     font-size: 1.5rem;
     margin-left: 2.5rem;
 }
-
-.titulos {
+.titulos{
     margin-top: 2rem;
     margin-left: -0.4rem;
 }
-
-.buscar {
-    float: left;
-    width: 32rem;
-    height: 4rem;
-    margin-left: 2.5rem;
-    background: whitesmoke;
-    box-shadow: 5px 4px 10px;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    padding: 1.2rem;
-    text-align: left;
-    color: rgb(133, 130, 130);
-    cursor: text;
+.buscar{
+float: left;
+width: 32rem;
+height: 4rem;
+margin-left: 2.5rem;
+background: whitesmoke;
+box-shadow: 5px 4px 10px;
+border-radius: 1rem;
+font-size: 1.5rem;
+padding: 1.2rem;
+text-align: left;
+color: rgb(133, 130, 130);
+cursor:text;
 }
-
-.lupa {
+.lupa{
     float: right;
     width: 5.5rem;
     height: 3.5rem;
-    margin-right: -2.3rem;
-    cursor: pointer;
+    margin-right:-2.3rem;
+    cursor:pointer ;
     margin-top: 0.3rem;
 }
-
-.img3 {
-    width: 110%;
-    margin-top: -1rem;
-    margin-left: -4rem;
+.img3{
+   width: 110%;
+   margin-top: -1rem;
+   margin-left: -4rem;
 }
-
-.contenedor {
+.contenedor{
     float: left;
     width: 41rem;
     height: 10rem;
     margin-left: 1rem;
     padding: 8rem;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-around;  
+        
 }
-
-.imagenes {
+.imagenes{
     width: 9rem;
     margin-left: 1rem;
     margin-top: -3rem;
     cursor: pointer;
 }
+.tabla{
 
-.tabla {
     width: 41rem;
-    height: 5rem;
+    height:5rem;
     margin: auto;
     margin-left: 1.3rem;
     text-align: center;
@@ -100,22 +90,18 @@
     margin-top: -1rem;
     font-weight: 900;
 }
-
-.tabla td :hover {
+.tabla td :hover{
     transition: 0.5s;
     color: hsl(25, 100%, 55%);
     cursor: pointer;
 }
-
-.imagen_grande {
+.imagen_grande{
     width: 33rem;
     margin-top: 3rem;
     margin-left: 5.3rem;
 }
-
-.letras_imagen {
-    background-color: red;
-    width: 31rem;
+.letras_imagen{
+    width:31rem;
     height: 9.83rem;
     margin: auto;
     margin-top: -12rem;
@@ -125,15 +111,13 @@
     position: relative;
     color: whitesmoke;
 }
-
-.titulo_imagen {
+.titulo_imagen{
     float: left;
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-left: 3rem;
 }
-
-.final {
+.final{
     width: 41rem;
     height: 10rem;
     margin: auto;
@@ -142,8 +126,7 @@
     justify-content: space-around;
     margin-top: -2rem;
 }
-
-.zona {
+.zona{
     font-size: 1.3rem;
     float: left;
     color: white;
@@ -151,134 +134,126 @@
     margin-top: -6rem;
     position: absolute;
 }
-
-.item2 {
+.item2{
     width: 2rem;
     height: 8rem;
     margin-top: 5rem;
     cursor: pointer;
     font-size: 3rem;
-}
-
-.img {
+}   
+.img{
     width: 2.8rem;
     float: left;
     position: absolute;
     margin-left: 31.8rem;
     margin-top: -5rem;
 }
-
-.item2 :hover {
+.item2 :hover{
     transition: 0.5s;
-    filter: grayscale(300%) opacity(0.4) drop-shadow(0 0 0 hsl(25, 100%, 55%));
+    filter: grayscale(300%) opacity(0.4) drop-shadow( 0 0 0 hsl(25, 100%, 55%));
 }
-
-.imagenes2 {
+.imagenes2{
     width: 2.5rem;
 }
-
-.imagen_link {
+.imagen_link{
     float: left;
     margin-left: -0.10rem;
-    width: 80.2rem;
+    width: 42.8rem;
+    height: 61.2rem;
 }
-
-.boton {
+.boton{
+    position: absolute;
     float: left;
-    position: absolute;
-    width: 10rem;
-    margin-top: 4rem;
-    margin-left: -78em;
+    width: 4.4rem;
+    display: flex;
+    margin-top: 2.8rem;
+    margin-left: 2.4rem;
 }
-
-.pantalla_baja {
-    width: 80rem;
-    height: 75rem;
-    position: absolute;
-    margin-top: 90rem;
-    border-radius: 15%;
+.pantalla_baja{
+    width: 42.8rem;
+    height: 41.6rem;
+    position:absolute;
+    margin-top: 50rem;
+    border-radius: 40px 40px 0px 0px;
+    margin-left: -0.1rem;
     background-color: whitesmoke;
 }
-
-.titulo2 {
-    font-size: 3.5rem;
-    font-weight: 700;
+.titulo2{
+    font-size: 1.8rem;
+    font-weight: 600;
     position: absolute;
-    margin-top: 97rem;
-    margin-left: 5rem;
+    line-height: 2.1rem;
+    margin-top: 54.4rem;
+    margin-left: 2rem;
 }
-
-.titulo3 {
+.titulo3{
     position: absolute;
-    margin-top: 106rem;
-    margin-left: 6rem;
-    font-size: 2rem;
-    font-weight: 100;
+    margin-top: 57rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
     color: #828282;
 }
-
-.titulo4 {
-    font-size: 2rem;
-    font-weight: 100;
+.titulo4{
+    position: absolute;
+    margin-left: 35.4rem;
+    margin-top: 54.513rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
     color: #828282;
 }
-
-.titulo_4 {
+.titulo_4{
     position: absolute;
-    width: 10rem;
-    height: 2rem;
-    margin-left: 62rem;
-    margin-top: 98.46rem;
-    text-align: right;
-}
-
-.titulo5 {
-
-
+ width: 10rem;
+ height: 2rem;
+ margin-left: 28rem;
+ margin-top: 54.2rem;   
+ text-align: right;
+}   
+.titulo5{
+    position: absolute;
+    margin-top: 57.455rem;
+    margin-left: 35.1rem;
     color: #FF7A1A;
-    ;
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
 }
-
-.titulo5 b {
+.titulo5 b{
     color: black;
 }
 
-.titulo_5 {
-    font-size: 1.3rem;
-    width: 8rem;
-    height: 3rem;
-    margin-left: 64rem;
-    margin-top: 106.4rem;
+.texto{
+    justify-content: left;
+    width: 38.4rem;
+    height: 11.1rem;
     position: absolute;
-    text-align: right;
-}
-
-.texto {
-    width: 68rem;
-    height: 18rem;
-    position: absolute;
-    margin-top: 115rem;
-    margin-left: 5rem;
-    font-size: 2.3rem;
+    margin-top: 62rem;
+    margin-left: 2.3rem;
+    font-size: 1.27rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8rem;
     color: #828282;
-}
-
-.cuadros {
+    }
+.cuadros{
     position: absolute;
-    width: 78.2rem;
-    height: 15rem;
-    margin-top: 135rem;
-    margin-left: 0.65rem;
+    width: 38.6rem;
+    height: 9rem;
+    margin-top: 74rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.item4 {
-    width: 9rem;
-    height: 9rem;
-    margin-top: 2rem;
+.item4{
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1.5rem;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.15);
@@ -286,27 +261,37 @@
     font-size: 1.8rem;
     font-weight: 600;
 }
-
-.item4 h1 {
-    font-size: 1.6rem;
-    margin-top: 1.7rem;
+.item4 h1{
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
-
-.cuadro_final {
+.item2 p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.cuadro_final{
     position: absolute;
     background-color: #FF7A1A;
     color: white;
-    border-radius: 2%;
-    width: 68rem;
-    height: 8rem;
-    margin-left: 6rem;
-    margin-top: 150rem;
+    box-shadow: 8px 8px 15px rgba(255, 122, 26, 0.2);
+    border-radius: 10px;
+    width: 38.7rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 84.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-.titulo_final {
-    margin-top: 1.7rem;
-    font-size: 3rem;
+.titulo_final{
+    margin-top:1.3rem;
+    font-size: 1.8rem;
+}
+.pantalla_2{
+    width: 428px;
+    height: 926px;
+    margin:auto;
+    margin-top: 10rem;
+    border-radius: 1%;
+    position: relative;
 }
